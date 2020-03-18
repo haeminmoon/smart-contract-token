@@ -21,7 +21,9 @@ Token smart contract deployer, it can use both Etherium(ERC-20) and Klaytn(KRC-2
   INFURA_API_KEY=
 ```
 5. Finally deploy the contract on the network you desire (mainnet, ropsten)
-`NETWORK=<network_name> npm run deploy`
+```
+  NETWORK=<network_name> npm run deploy
+```
 
 
 ## Deployment - Klaytn
@@ -35,7 +37,9 @@ Token smart contract deployer, it can use both Etherium(ERC-20) and Klaytn(KRC-2
   PRIVATE_KEY=
 ```
 5. Finally deploy the contract on the network you desire(cypress, baobab)
-`NETWORK=<network_name> npm run deploy`
+```
+  NETWORK=<network_name> npm run deploy
+```
 
 ## Test
 * In order to run the whole tests
