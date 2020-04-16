@@ -3,9 +3,18 @@
 Token smart contract deployer, it can use both Etherium(ERC-20) and Klaytn(KRC-20)
 
 ## Build Environment
+```
 - Solidity 0.4.24
 - Truffle 4.1.15
 - Node 8.17.0
+```
+or
+```
+- Solidity 0.4.24
+- Truffle 5.1.21
+- Node 10.20.0
+```
+
 
 
 ## Deployment - Ethereum
@@ -17,6 +26,8 @@ Token smart contract deployer, it can use both Etherium(ERC-20) and Klaytn(KRC-2
 ```
   // Set Account's mnemonic words in Etherium network for deployer
   MNEMONICS=
+  or
+  PRIVATE_KEY=
   // Set your infura project secret key
   INFURA_API_KEY=
 ```
